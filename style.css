@@ -226,8 +226,8 @@ a.menuLink:hover::before {
     background: black;
     opacity: 0.9;
     color: white;
-    transform: translateY(-100%);
-    transition: transform 0.2s;
+    transform: translateY(-200%);
+    transition: transform 0.3s;
     list-style: none;
     padding-top: 2rem;
   }
@@ -773,6 +773,13 @@ input[type="submit"]:hover {
 @media only screen and (max-width: 800px) {
   .infoContact {
     flex-direction: column-reverse;
+  }
+  .phone-email {
+    display: block;
+  }
+  .phone,
+  .email {
+    width: 100%;
   }
   .info ul li {
     display: inline-block;
