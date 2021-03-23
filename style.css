@@ -21,6 +21,7 @@ body {
   font-family: poppins;
   color: var(--color3);
   background-color: var(--color1);
+  cursor: url(https://i.postimg.cc/zB7N6dWN/ar.png) 2 2, pointer;
 }
 a {
   text-decoration: none;
